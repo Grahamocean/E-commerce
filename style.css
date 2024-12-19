@@ -650,6 +650,7 @@ footer .copyright {
 
   #feature {
     /* justify-content: space-between; */
+    gap: 10px;
   }
 
   #feature .feature-box {
