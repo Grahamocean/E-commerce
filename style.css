@@ -649,7 +649,7 @@ footer .copyright {
   }
 
   #feature {
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   #feature .feature-box {
