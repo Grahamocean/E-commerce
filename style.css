@@ -696,6 +696,7 @@ footer .copyright {
 @media (max-width: 361px) {
   #feature .feature-box {
     min-width: 155px;
+    max-width: 160px;
     margin: 0 0 15px 0;
   }
 }
