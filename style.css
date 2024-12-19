@@ -653,7 +653,7 @@ footer .copyright {
   }
 
   #feature .feature-box {
-    width: 160px;
+    width: 150px;
     margin: 0 0 15px 0;
   }
 
@@ -690,5 +690,12 @@ footer .copyright {
 
   footer .copyright {
     text-align: start;
+  }
+}
+
+@media (max-wdith: 361px) {
+  #feature .feature-box {
+    width: 155px;
+    margin: 0 0 15px 0;
   }
 }
