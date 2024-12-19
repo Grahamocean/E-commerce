@@ -695,6 +695,7 @@ footer .copyright {
 
 @media (max-width: 361px) {
   #feature {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px; /* Controls spacing */
