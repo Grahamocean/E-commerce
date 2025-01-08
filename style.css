@@ -830,6 +830,16 @@ footer .copyright {
   #newsletter .form {
     width: 70%;
   }
+
+  /* About Page */
+  #about-app .video {
+    width: 100%;
+    height: 100%;
+  }
+
+  #about-app .video video {
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 477px) {
@@ -931,6 +941,27 @@ footer .copyright {
 
   #blog .blog-details {
     width: 100%;
+  }
+
+  /* About Page */
+
+  #about-head {
+    flex-direction: column;
+  }
+
+  #about-head div {
+    padding-left: 0rem;
+    text-align: center;
+  }
+
+  #about-head img {
+    object-fit: contain;
+    width: 100%;
+    margin-bottom: 1.25rem;
+  }
+  #about-app .video {
+    width: 100%;
+    height: 100%;
   }
 }
 
